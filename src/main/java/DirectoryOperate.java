@@ -113,9 +113,6 @@ public class DirectoryOperate
 			return false;
 		}
 	}
-//        new File(path).listFiles();
-//        return true;
-
 
 
 

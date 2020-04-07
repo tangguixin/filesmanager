@@ -31,7 +31,7 @@ public class FileOperate
         {
             InputStream in=new FileInputStream(oldPath);
             OutputStream out=new FileOutputStream(newPath);
-//            IOOperation.copy(in, out);
+            IOOperation.copy(in, out);
             in.close();
             out.close();
             //System.out.print("操作成功!");
